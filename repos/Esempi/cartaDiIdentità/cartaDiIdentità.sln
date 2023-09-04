@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cartaDiIdentità", "cartaDiIdentità\cartaDiIdentità.csproj", "{6770544A-F25A-4A96-8E02-1293A96304EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6770544A-F25A-4A96-8E02-1293A96304EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6770544A-F25A-4A96-8E02-1293A96304EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6770544A-F25A-4A96-8E02-1293A96304EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6770544A-F25A-4A96-8E02-1293A96304EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3869B70-A522-48DB-A78E-956ABAC3CB08}
+	EndGlobalSection
+EndGlobal

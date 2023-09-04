@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppIOT", "AppIOT\AppIOT.csproj", "{FFCE4539-1C20-4E3E-A634-02863B67B4D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{876CAD1F-03A8-453D-BA6D-913CE492B70F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFCE4539-1C20-4E3E-A634-02863B67B4D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFCE4539-1C20-4E3E-A634-02863B67B4D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFCE4539-1C20-4E3E-A634-02863B67B4D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFCE4539-1C20-4E3E-A634-02863B67B4D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{876CAD1F-03A8-453D-BA6D-913CE492B70F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{876CAD1F-03A8-453D-BA6D-913CE492B70F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{876CAD1F-03A8-453D-BA6D-913CE492B70F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{876CAD1F-03A8-453D-BA6D-913CE492B70F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9784BB1-2F88-4F03-ACED-D59E65EF537C}
+	EndGlobalSection
+EndGlobal
