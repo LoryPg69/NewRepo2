@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Xml.Linq;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace EsercizioBankomat
 {
@@ -11,6 +13,9 @@ namespace EsercizioBankomat
         public double Saldo { get; set; }
 
         public double Cifra { get; set; }
+
+
+
         public ContoCorrente(double saldo)
         {
 
@@ -81,12 +86,13 @@ namespace EsercizioBankomat
 
                 
 
-                foreach (Account account in accounts)
+                foreach (var account in accounts)
                 {
 
                     if (username.Equals(account.Username) && password.Equals(account.Password))
                     {
                         Console.WriteLine("utente trovato");
+                        SchermataBenvenuto();
                         trovato = true;
 
                     }
@@ -100,36 +106,39 @@ namespace EsercizioBankomat
                 }
                
             } while (!trovato);
-            MenuConto();
-            SchermataBenvenuto();
-
+            MenuConto(accounts);
+            
         }
 
 
-        public void MenuConto()
+        public void MenuConto(List<Account> accounts)
         {
-            Console.WriteLine("Scegli 1 per prelevare, 2 per versare, 3 per visualizzare il saldo 4 per uscire");
+            Console.WriteLine("Scegli 1 per prelevare, 2 per versare, 3 per visualizzare il saldo 4 per effettuare LOGOUT 5 per uscire");
             int input = int.Parse(Console.ReadLine());
             switch (input)
             {
                 case 1:
                     Prelievo(Cifra);
-                    MenuConto();
+                    MenuConto(accounts);
                     break;
                 case 2:
 
                     Versamento(Cifra);
-                    MenuConto();
+                    MenuConto(accounts);
                     break;
                 case 3:
 
                     VisualizzaSaldo();
-                    MenuConto();
+                    MenuConto(accounts);
                     break;
                 case 4:
-                    Console.WriteLine("Arrivederci");
-                    return;
-
+                    
+                     Accedi(accounts);
+                    break;
+                case 5:
+                    Console.WriteLine("uscita");                  
+                    break;
+                   
                 default:
                     Console.WriteLine("numero sbagliato");
                     return;
