@@ -1,0 +1,29 @@
+[
+  {
+    "Name": "Coca Cola",
+    "Price": 2.80
+  },
+  {
+    "Name": "Patatine",
+    "Price": 3.00
+  },
+
+  {
+    "Name": "Fanta",
+    "Price": 1.80
+  },
+
+  {
+    "Name": "The",
+    "Price": 2.30
+  },
+  {
+    "Name": "Biscotti",
+    "Price": 1.00
+  },
+
+  {
+    "Name": "Taralli",
+    "Price": 1.20
+  }
+]

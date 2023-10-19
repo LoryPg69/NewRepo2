@@ -1,0 +1,62 @@
+[
+  {
+    "Name": "PataPollo",
+    "Price": 7.80,
+    "Shapes": "Rotolo",
+    "Ingredients": [
+      {
+        "Name": "Pollo"
+      },
+      {
+        "Name": "Insalata"
+      },
+      {
+        "Name": "Maionese"
+      },
+      {
+        "Name": "Pomodori"
+      }
+    ]
+    
+                
+  },
+  {
+    "Name": "La superiore",
+    "Price": 5.50,
+    "Shapes": "Rotolo",
+    "Ingredients": [
+      {
+        "Name": "Formaggio"
+      },
+      {
+        "Name": "Insalata"
+      },
+      {
+        "Name": "Prosciutto"
+      },
+      {
+        "Name": "Pomodori"
+      }
+    ]
+  },
+
+  {
+    "Name": "La Malga",
+    "Price": 6.00,
+    "Shapes": "Piada",
+    "Ingredients": [
+      {
+        "Name": "Funghi"
+      },
+      {
+        "Name": "Speack"
+      },
+      {
+        "Name": "Maionese"
+      },
+      {
+        "Name": "Pomodori"
+      }
+    ]
+  }
+]

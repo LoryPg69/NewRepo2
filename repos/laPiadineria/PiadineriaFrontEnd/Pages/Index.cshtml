@@ -1,0 +1,58 @@
+﻿@page
+@model IndexModel
+@{
+
+    ViewData["Title"] = "Home page";
+    // Layout = "Shared/_LayoutFluid.cshtml";
+
+}
+
+<div class="container-fluid dashboard">
+    <h1 class="h2">LA PIADINERIA</h1>
+    <hr />
+    <div class="row">
+        @*Left Column*@
+        <div class="col-md-6">
+            <h2> Prodotti </h2>
+            <table class="table table-striped table-bordered">
+
+                <tr>
+                    <th>Nome</th>
+                    <th>Prezzo</th>
+                </tr>
+
+                @foreach (var item in Model.Product)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.Price</td>
+                    </tr>
+                }
+            </table>
+        </div>
+        @*Right Column*@
+        <h2> Piadine </h2>
+        <table class="table table-striped table-bordered">
+
+            <tr>
+                <th>Nome</th>
+                <th>Prezzo</th>
+                <th>Ingredienti</th>
+                <th>Forma</th>
+            </tr>
+
+            @foreach (var item in Model.Piadina)
+            {
+                
+                <tr>              
+                    <td>@item.Name</td>
+                    <td>@item.Price</td>
+                    <td>@item.Ingredients</td>
+                    <td>@item.Shapes</td>
+                </tr>
+            }
+        </table>
+    </div>
+               
+        </div>
+    </div>

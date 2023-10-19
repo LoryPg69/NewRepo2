@@ -14,7 +14,7 @@ namespace EsercizioBankomat
 
         public double Cifra { get; set; }
 
-
+        DateTime data =  DateTime.Now;
 
         public ContoCorrente(double saldo)
         {
@@ -42,6 +42,7 @@ namespace EsercizioBankomat
                 {
                     r = Saldo - cifra;
                        Console.WriteLine($"Il saldo è di {r}");
+                       Console.WriteLine($"data: {data}");
                     result = r;             
                     s  = true;
                 }
@@ -58,6 +59,7 @@ namespace EsercizioBankomat
             cifra = Double.Parse(Console.ReadLine());
              result = Saldo + cifra;
             Console.WriteLine($"Il saldo è di {result}");
+            Console.WriteLine($"data: {data}");
 
         }
 
@@ -66,6 +68,7 @@ namespace EsercizioBankomat
         internal void VisualizzaSaldo()
         {
             Console.WriteLine($"Il tuo saldo è di {result}");
+            Console.WriteLine($"data: {data}");
 
         }
 

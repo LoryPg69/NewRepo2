@@ -1,0 +1,15 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:differenzaAeM"
+        xmlns:Properties="clr-namespace:differenzaAeM.Properties" x:Class="differenzaAeM.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="Title" Content="Veicoli" HorizontalAlignment="Center" Height="54" Margin="0,34,0,0" VerticalAlignment="Top" Width="396" FontWeight="Bold" FontSize="36"/>
+        <Grid x:Name="Grid" Margin="136,120,165,59" Background="#FF06F536"/>
+
+    </Grid>
+</Window>

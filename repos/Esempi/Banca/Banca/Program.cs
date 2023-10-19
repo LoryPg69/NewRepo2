@@ -40,10 +40,10 @@ namespace Banca
 
         private static void Test()
         {
-            string path = @"C:\Users\mattia.ligreci\Documents\Test\movimenti.csv";
+            string path = @"C:\Users\lorenzo.pioggia\Documents\Test\movimenti.csv";
             List<string> lines = FileLoader.ReadfromFile(path);
             List<Movimento> list = FileLoader.CreateObject<Movimento>(lines);
-            string path2 = @"C:\Users\mattia.ligreci\Documents\Test\Clienti_Intesa.csv";
+            string path2 = @"C:\Users\lorenzo.pioggia\Documents\Test\Clienti_Intesa.csv";
 
 
             var lines2 = FileLoader.ReadfromFile(path2);

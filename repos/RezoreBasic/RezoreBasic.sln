@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RezoreBasic", "RezoreBasic\RezoreBasic.csproj", "{0CA12691-287B-4DD0-89C6-E02CF1260A22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CA12691-287B-4DD0-89C6-E02CF1260A22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CA12691-287B-4DD0-89C6-E02CF1260A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CA12691-287B-4DD0-89C6-E02CF1260A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CA12691-287B-4DD0-89C6-E02CF1260A22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE0FDD94-7E64-4CB2-BAE6-15BEED7DCE2F}
+	EndGlobalSection
+EndGlobal
